@@ -1,0 +1,168 @@
+# ======================================================
+
+# SenseMyMusic — Monorepo .gitignore
+
+# Laravel backend + Frontend + Docker
+
+# ======================================================
+
+#########################################################
+
+# Environment / secrets
+
+#########################################################
+
+.env
+.env.*
+!.env.example
+!.env.example_dev
+
+#########################################################
+
+# Node / Frontend
+
+#########################################################
+
+node_modules/
+.pnpm-store/
+.npm/
+
+dist/
+build/
+.next/
+out/
+.nuxt/
+.angular/
+
+*.tsbuildinfo
+
+#########################################################
+
+# PHP / Laravel
+
+#########################################################
+
+vendor/
+
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+storage/*.key
+
+storage/app/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+storage/logs/*
+
+!storage/app/.gitignore
+!storage/framework/cache/.gitignore
+!storage/framework/sessions/.gitignore
+!storage/framework/testing/.gitignore
+!storage/framework/views/.gitignore
+!storage/logs/.gitignore
+
+#########################################################
+
+# Docker
+
+#########################################################
+
+docker-volumes/
+
+*.pid
+
+#########################################################
+
+# Testing
+
+#########################################################
+
+coverage/
+.phpunit.result.cache
+
+.bruno/
+
+#########################################################
+
+# Logs
+
+#########################################################
+
+*.log
+
+#########################################################
+
+# Temporary
+
+#########################################################
+
+.tmp/
+.temp/
+
+.cache/
+
+#########################################################
+
+# IDE / Editors
+
+#########################################################
+
+.vscode/
+.idea/
+
+*.swp
+
+#########################################################
+
+# OS
+
+#########################################################
+
+.DS_Store
+Thumbs.db
+
+#########################################################
+
+# Build artifacts
+
+#########################################################
+
+public/build/
+
+#########################################################
+
+# Generated media
+
+#########################################################
+
+app_src/media/generated/
+
+#########################################################
+
+# Seeder assets (KEEP)
+
+#########################################################
+
+!app_src/media/seeder_assets/
+
+#########################################################
+
+# Optional:
+
+# ignore backend dependencies if installed on host
+
+#########################################################
+
+app_src/backend/vendor/
+
+#########################################################
+
+# Optional:
+
+# ignore frontend dependencies if installed on host
+
+#########################################################
+
+app_src/frontend/node_modules/

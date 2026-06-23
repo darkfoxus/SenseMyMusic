@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:0,sample.aac
+/home/zarvael/Downloads/samples/sample.aac
+#EXTINF:244,sample.flac
+/home/zarvael/Downloads/samples/sample.flac
+#EXTINF:244,sample.m4a
+/home/zarvael/Downloads/samples/sample.m4a
+#EXTINF:489,sample.mp3
+/home/zarvael/Downloads/samples/sample.mp3
+#EXTINF:244,sample.ogg
+/home/zarvael/Downloads/samples/sample.ogg
